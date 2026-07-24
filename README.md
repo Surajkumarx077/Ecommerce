@@ -64,21 +64,48 @@ This project was built to strengthen my understanding of Java Full Stack Develop
 ## 📂 Project Structure
 
 ```text
-Ecommerce
-│── src
-│   ├── main
-│   │   ├── java
-│   │   ├── resources
-│   │   │   ├── static
-│   │   │   ├── templates
-│   │   │   └── application.properties
-│   └── test
+Ecommerce/
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/
+│   │   │       └── ecommerce/
+│   │   │           ├── config/
+│   │   │           ├── controller/
+│   │   │           ├── dto/
+│   │   │           ├── entity/
+│   │   │           ├── exception/
+│   │   │           ├── repository/
+│   │   │           ├── security/
+│   │   │           ├── service/
+│   │   │           │   └── impl/
+│   │   │           ├── util/
+│   │   │           └── EcommerceApplication.java
+│   │   │
+│   │   └── resources/
+│   │       ├── static/
+│   │       │   ├── css/
+│   │       │   ├── js/
+│   │       │   └── images/
+│   │       ├── templates/
+│   │       │   ├── admin/
+│   │       │   ├── auth/
+│   │       │   ├── cart/
+│   │       │   ├── order/
+│   │       │   ├── product/
+│   │       │   └── index.html
+│   │       └── application.properties
+│   │
+│   └── test/
+│       └── java/
 │
+├── target/
 ├── pom.xml
+├── mvnw
+├── mvnw.cmd
 ├── README.md
-└── mvnw
+└── .gitignore
 ```
-
 ---
 
 ## ⚙️ Installation
